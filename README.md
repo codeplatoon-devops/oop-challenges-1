@@ -11,7 +11,7 @@ Since you're on your way to becoming Object Oriented Programming whiz, it's time
 >    2. One to allow the customer to withdraw funds (this should deduct from the balance fields but not allow the withdrawal to complete if their founds are insufficient).
 >5. Create some validation code using your getters and setters to confirm your code is working at each step of the user flow.  You should be able to show that a new user can be created and that this user can deposit and withdraw funds.
 
-## Constructor Challenge II:  Browser Based Game Server Prototype
+## Constructor Challenge II:  Browser Based Game Server
 In this challenge, you are writing out object models for a web3 based gaming start up.  You'll need to be able to provide functionality for players hopping into a central hub, joining different game types, and different 
 >1. Create a base HubPlayer class with basic fields such as name, email, username, and player ID.
 >2. Create an ActivePlayer subclass that will be instantiated when the player actively joins a game.  This player will now have a field for Character ID list, and a field to specify the selected Character id.
