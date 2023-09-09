@@ -3,6 +3,7 @@
 Since you're on your way to becoming Object Oriented Programming whiz, it's time to throw some more involved challenges your way.
 
 ## Constructor Challenge I:  Customer Banking Accounts
+In this challenge, you are creating functionality for users to open up a bank account from which they can deposit and withdraw funds.  
 >1. Create a new class for a CustomerBankAccount. 
 >2. Create fields for the Account Number, Balance, Customer Name, Email and Phone Number.
 >3. Create methods to read, write and update each field.  Basically, some getters and setters.
@@ -12,7 +13,7 @@ Since you're on your way to becoming Object Oriented Programming whiz, it's time
 >5. Create some validation code using your getters and setters to confirm your code is working at each step of the user flow.  You should be able to show that a new user can be created and that this user can deposit and withdraw funds.
 
 ## Constructor Challenge II:  Browser Based Game Server
-In this challenge, you are writing out object models for a web3 based gaming start up.  You'll need to be able to provide functionality for players hopping into a central hub, joining different game types, and different 
+In this challenge, you are writing out object models for a web3 based gaming start up.  You'll need to be able to provide functionality for players hopping into a central hub, joining a game type and creating the appropriate character and selecting from a list of available character subclass.
 >1. Create a base HubPlayer class with basic fields such as name, email, username, and player ID.
 >2. Create an ActivePlayer subclass that will be instantiated when the player actively joins a game.  This player will now have a field for Character ID list, and a field to specify the selected Character id.
 >3. You'll now need to create a Character class, and give it some appropriate parameters, such as a character name.  Whatever game style and additional parameters is up to you.
