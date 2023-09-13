@@ -13,11 +13,11 @@ class VipCustomer(StandardCustomerBankAccount):
         super().__init__(account_number, balance, name, email, phone)
         self.__gold_pts = 0
 
-        def get_gold_pts(self):
-            return self.__gold_pts
+    def get_gold_pts(self):
+        return self.__gold_pts
 
-        def set_gold_pts(self, value):
-            self.__gold_pts = value
+    def set_gold_pts(self, value):
+        self.__gold_pts = value
 
 
 # Tests
@@ -27,4 +27,6 @@ if __name__ == "__main__":
     print("------------")
     print(cust1)
     print("------------")
+    print(cust1.get_gold_pts())
+    print(cust1.set_gold_pts(222))  # bug - setter is also returning None
     print(cust1.get_gold_pts())
