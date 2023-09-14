@@ -19,6 +19,14 @@ class StandardCustomerBankAccount(CustomerBankAccount):
     def set_reward_transaction(self, value):
         self.__reward_trans.append(value)
 
+class SilverRewards:
+  def __init__(self):
+    self.silver_rewards = {
+			"Sticker Pack" : 100,
+			"Coffee Mug" : 500,
+			"T-Shirt" : 750
+		}
+
 
 # Tests
 if __name__ == "__main__":

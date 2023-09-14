@@ -19,6 +19,13 @@ class VipCustomer(StandardCustomerBankAccount):
     def set_gold_pts(self, value):
         self.__gold_pts += value
 
+class GoldRewards:
+  def __init__(self):
+    self.gold_rewards = {
+			"Gift Card" : 1000,
+			"Yeti Rambler" : 1200,
+			"iPad" : 5000
+		}
 
 # Tests
 if __name__ == "__main__":
