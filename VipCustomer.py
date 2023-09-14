@@ -17,7 +17,7 @@ class VipCustomer(StandardCustomerBankAccount):
         return self.__gold_pts
 
     def set_gold_pts(self, value):
-        self.__gold_pts = value
+        self.__gold_pts += value
 
 
 # Tests
@@ -28,5 +28,7 @@ if __name__ == "__main__":
     print(cust1)
     print("------------")
     print(cust1.get_gold_pts())
-    print(cust1.set_gold_pts(222))  # bug - setter is also returning None
+    cust1.set_gold_pts(222)
+    print(cust1.get_gold_pts())
+    cust1.set_gold_pts(100)
     print(cust1.get_gold_pts())
